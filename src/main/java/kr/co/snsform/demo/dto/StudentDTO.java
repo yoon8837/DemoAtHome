@@ -1,0 +1,40 @@
+package kr.co.snsform.demo.dto;
+
+public class StudentDTO {
+    private int studentNo;
+    private String name;
+    private int age;
+    private String gender;
+
+    public int getStudentNo() {
+        return studentNo;
+    }
+
+    public void setStudentNo(int studentNo) {
+        this.studentNo = studentNo;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+}

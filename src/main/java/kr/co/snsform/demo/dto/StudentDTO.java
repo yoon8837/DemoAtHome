@@ -6,6 +6,16 @@ public class StudentDTO {
     private int age;
     private String gender;
 
+    public StudentDTO() {
+    }
+
+    public StudentDTO(int studentNo, String name, int age, String gender) {
+        this.studentNo = studentNo;
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+    }
+
     public int getStudentNo() {
         return studentNo;
     }

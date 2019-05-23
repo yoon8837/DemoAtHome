@@ -9,11 +9,7 @@ public class DemoController {
     @RequestMapping("/")
     public StudentDTO HelloWorld(){
 
-        StudentDTO studentDTO = new StudentDTO();
-        studentDTO.setStudentNo(3622);
-        studentDTO.setName("윤여태");
-        studentDTO.setAge(28);
-        studentDTO.setGender("남");
+        StudentDTO studentDTO = new StudentDTO(3622, "윤여태", 28, "남");
 
         return studentDTO;
     }
